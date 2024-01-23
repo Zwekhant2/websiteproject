@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    }
+    
+.nav-container{
+        background-color: #FF3F00;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+a{
+        color: white;
+    }
+    
+header{
+        color: black;
+    }
+
+a {
+        text-decoration: none;
+    }
+
+
+.navbar-nav .nav-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+.footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: #FF3F00;
+        border-top: 1px solid #ddd;
+    }
+    
+.contact-info{
+        color: white;
+}
+.text-center{
+        padding: 0 20px;
+    }
+.social-icons,
+.copyright {
+        color: white;
+        text-align: center;
+    }
+    
+.icon {
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    
+.footer-link {
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    
+.footer-link:hover {
+        text-decoration: underline;
+    }
+      
+.main-footer{
+    font-size: 1em;
+}
+
+.copyright-box {
+    background-color: #FF3F00; /* White background */
+    margin-top: 10px; /* Add margin between the two boxes */
+    padding: 0px; /* Add padding for space inside the box */
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+    
+    
+    /* Custom CSS in style.css */
+    
+    /* Adjustments for small screens */
+    @media (max-width: 576px) {
+        /* Your styles for small screens go here */
+    }
+    
+    /* Adjustments for medium screens */
+    @media (min-width: 577px) and (max-width: 768px) {
+        /* Your styles for medium screens go here */
+    }
+    
+    /* Adjustments for large screens */
+    @media (min-width: 769px) {
+        /* Your styles for large screens go here */
+    }
+    
+    .navbar-toggler-icon {
+    color: whitesmoke;
+    }
+    
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center; /* Center-align the content */
+    }
+
+    .footer span {
+        margin-bottom: 10px; /* Add spacing between lines on smaller screens */
+    }
+}
+
+.navbar-toggler{
+    background-color: #FF3F00;
+}
+
+navbar-toggler-icon {
+    background-color: transparent; /* Set the background color to transparent */
+    border: 1px solid #fff; /* Add a border for visibility */
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: ''; /* Empty content for pseudo-elements */
+    display: block; /* Make them block elements */
+    height: 2px; /* Set the height of each line */
+    width: 30px; /* Set the width of each line */
+    background-color: black; /* Set the color of each line */
+    margin: 6px 0; /* Adjust the spacing between lines */
+  }
